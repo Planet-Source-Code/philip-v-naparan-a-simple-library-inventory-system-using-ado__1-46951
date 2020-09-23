@@ -1,0 +1,271 @@
+[Root]
+Most Recent Package=Library System
+Most Recent Deploy=Library System
+
+[Package|Library System|IconGroups]
+Group0=Library System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Library System|Library System]
+Icon1=LibrarySystem.exe
+Title1=Library System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Deploy|Library System|Root]
+Package=Library System
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\myvbpro\library\package
+
+[Deploy|LibrarySystem|Root]
+Package=Library System
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\myvbpro\library\package
+
+[Deploy|Library|Root]
+Package=Library System
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\myvbpro\library\package
+
+[Deploy|ls|Root]
+Package=Library System
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\myvbpro\library\package
+
+
+[Package|Library System Version 2.1.0|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\myvbpro\library\Package
+
+[Package|Library System Version 2.1.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Library System Version 2.1.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Library System Version 2.1.0|Files Found]
+
+[Package|Library System Version 2.1.0|Files Released]
+
+[Package|Library System Version 2.1.0|Missing Dependency Information]
+C:\WINDOWS\system32\Macromed\Flash\swflash.ocx=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Library System Version 2.1.0|Out-of-Date Dependency Information]
+
+[Package|Library System Version 2.1.0|Files Added]
+c:\myvbpro\library\database.mdb=
+
+[Package|Library System Version 2.1.0|Files Removed]
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+e:\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\windows\system32\tabctl32.ocx=
+e:\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+c:\program files\common files\system\ado\msado20.tlb=
+c:\windows\system32\msbind.dll=
+c:\windows\system32\msdatlst.ocx=
+c:\windows\system32\msdatrep.ocx=
+c:\windows\system32\msdbrptr.dll=
+c:\program files\common files\designer\msderun.dll=
+c:\windows\system32\msstdfmt.dll=
+
+[Package|Library System Version 2.1.0|Files In Project]
+C:\myvbpro\library\LibrarySystem.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=No
+C:\WINDOWS\system32\oleaut32.dll=No
+C:\WINDOWS\system32\olepro32.dll=No
+C:\WINDOWS\system32\asycfilt.dll=No
+C:\WINDOWS\system32\stdole2.tlb=No
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\Program Files\Common Files\System\ado\msado20.tlb=No
+C:\WINDOWS\system32\MSBIND.DLL=No
+C:\WINDOWS\system32\MSSTDFMT.DLL=No
+C:\WINDOWS\system32\MSDATREP.OCX=No
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=No
+C:\WINDOWS\system32\MSDBRPTR.DLL=No
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=No
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=No
+C:\WINDOWS\system32\Macromed\Flash\swflash.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\myvbpro\library\DataBase.mdb=Yes
+C:\Program Files\Common Files\System\ado\msado15.dll=Yes
+
+[Package|Library System Version 2.1.0|Configure Registry Files]
+Applicable=No
+
+[Package|Library System Version 2.1.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Library System Version 2.1.0|Install Locations]
+C:\myvbpro\library\LibrarySystem.exe=$(AppPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Macromed\Flash\swflash.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\myvbpro\library\DataBase.mdb=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+
+[Package|Library System Version 2.1.0|Configure Shared Files]
+Applicable=Yes
+C:\myvbpro\library\LibrarySystem.exe=Yes
+C:\myvbpro\library\DataBase.mdb=Yes
+
+[Package|Library System Version 2.1.0|Distribution]
+Type=single
+Size=
+Title=Library System
+
+[Package|Library System Version 2.1.0|IconGroups]
+Group0=Library System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Library System Version 2.1.0|Library System]
+Icon1=LibrarySystem.exe
+Title1=Library System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Library System Version 2.1.0|DepFile]
+DepCabFile=LibrarySystem.CAB
+DepCabRun=LibrarySystem.INF
+
+[Package|Library System Version 2.1.0|Package]
+PackageFolder=C:\myvbpro\library\Package
+ProjectFolder=C:\myvbpro\library
+ServerSideCab=
+File1=C:\myvbpro\library\Package\LibrarySystem.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Library System|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\myvbpro\library\Package
+
+[Package|Library System|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Library System|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Library System|Files Found]
+
+[Package|Library System|Files Released]
+
+[Package|Library System|Missing Dependency Information]
+C:\WINDOWS\system32\Macromed\Flash\swflash.ocx=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Library System|Out-of-Date Dependency Information]
+
+[Package|Library System|Files Added]
+c:\myvbpro\library\database.mdb=
+
+[Package|Library System|Files Removed]
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+e:\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\windows\system32\tabctl32.ocx=
+e:\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+c:\program files\common files\system\ado\msado20.tlb=
+c:\windows\system32\msbind.dll=
+c:\windows\system32\msdatlst.ocx=
+c:\windows\system32\msdatrep.ocx=
+c:\windows\system32\msdbrptr.dll=
+c:\program files\common files\designer\msderun.dll=
+c:\windows\system32\msstdfmt.dll=
+
+[Package|Library System|Files In Project]
+C:\myvbpro\library\LibrarySystem.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=No
+C:\WINDOWS\system32\oleaut32.dll=No
+C:\WINDOWS\system32\olepro32.dll=No
+C:\WINDOWS\system32\asycfilt.dll=No
+C:\WINDOWS\system32\stdole2.tlb=No
+E:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\Program Files\Common Files\System\ado\msado20.tlb=No
+C:\WINDOWS\system32\MSBIND.DLL=No
+C:\WINDOWS\system32\MSSTDFMT.DLL=No
+C:\WINDOWS\system32\MSDATREP.OCX=No
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=No
+C:\WINDOWS\system32\MSDBRPTR.DLL=No
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=No
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=No
+C:\WINDOWS\system32\Macromed\Flash\swflash.ocx=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\myvbpro\library\DataBase.mdb=Yes
+E:\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Library System|Configure Registry Files]
+Applicable=No
+
+[Package|Library System|Configure Remote Servers]
+Applicable=No
+
+[Package|Library System|Install Locations]
+C:\myvbpro\library\LibrarySystem.exe=$(AppPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Macromed\Flash\swflash.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\myvbpro\library\DataBase.mdb=$(AppPath)
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+
+[Package|Library System|Configure Shared Files]
+Applicable=Yes
+C:\myvbpro\library\LibrarySystem.exe=Yes
+C:\myvbpro\library\DataBase.mdb=Yes
+
+[Package|Library System|Distribution]
+Type=single
+Size=
+Title=Library System
+
+[Package|Library System|DepFile]
+DepCabFile=LibrarySystem.CAB
+DepCabRun=LibrarySystem.INF
+
+[Package|Library System|Package]
+PackageFolder=C:\myvbpro\library\Package
+ProjectFolder=C:\myvbpro\library
+ServerSideCab=
+File1=C:\myvbpro\library\Package\setup.exe
+File2=C:\myvbpro\library\Package\Setup.Lst
+File3=C:\myvbpro\library\Package\LibrarySystem.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
